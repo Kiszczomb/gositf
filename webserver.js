@@ -1,4 +1,4 @@
-var http = require('https').createServer(handler);
+var http = require('http').createServer(handler);
 var fs = require('fs'); //require filesystem module
 var io = require('socket.io')(http) //require socket.io module and pass the http object (server)
 
